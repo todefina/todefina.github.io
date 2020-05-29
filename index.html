@@ -8,5 +8,19 @@
  <body>
   <p>The future has come</p>
   <strong>Tulevik on tulnud</strong>
+  <noscript>Ваше устройство запрещает или не поддерживает JavaScript</noscript>
+  <script>
+    var req = ({
+        method: 'GET',
+        url: window.location.href
+    });
+
+    $http(req).then(function successCallback(successData){
+        console.log(successData);
+    },function errorCallback(errorData){
+        alert(errorData+' Подключение к интернету отсутствует');
+    });      
+  </script>
+
  </body> 
 </html>
