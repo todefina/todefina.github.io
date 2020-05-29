@@ -1,26 +1,45 @@
 <!doctype html>
 <html lang="en">
- <head>
-   <meta charset="utf-8">
-   <title>TO Defina</title>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- </head>
- <body>
-  <p>The future has come</p>
-  <strong>Tulevik on tulnud</strong>
-  <noscript>Ваше устройство запрещает или не поддерживает JavaScript</noscript>
-  <script>
-    var req = ({
-        method: 'GET',
-        url: window.location.href
-    });
+    <head>
+        <title>TO Defina</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#f31e4c">
+        <meta name="msapplication-navbutton-color" content="#f31e4c">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#f31e4c">
+       
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Defina LLC"/>
+        <meta name="developer" content="iQs Solution">
+        <meta name="keywords" content="creative, designer, online, Task, Manager" />
+        <meta name="description" content="To-Do List & Task Manager" />
+        <link rel="stylesheet" href="/src/styles.css" />
+    </head>
+    <body>
+    <strong>Tulevik on tulnud</strong>
+    <br>
+    <noscript style="color:red;">Ваше устройство запрещает или не поддерживает JavaScript</noscript>
+    
+    <script src="lib/offline.min.js"></script>
+    <script src="/src/offline/offline.min.js"></script>
+    <script>
+        $(function(){
+            var 
+                $online = $('.online'),
+                $offline = $('.offline');
 
-    $http(req).then(function successCallback(successData){
-        console.log(successData);
-    },function errorCallback(errorData){
-        alert(errorData+' Подключение к интернету отсутствует');
-    });      
-  </script>
-
- </body> 
+            Offline.on('confirmed-down', function () {
+                $online.fadeOut(function () {
+                    $offline.fadeIn();
+                });
+            });
+            Offline.on('confirmed-up', function () {
+                $offline.fadeOut(function () {
+                    $online.fadeIn();
+                });
+            });
+        });
+    </script>
+    </body> 
 </html>
