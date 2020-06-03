@@ -11,7 +11,9 @@ To-Do List &amp; Task Manager
 
 ## STYLE
 
-[Materialize](https://materializecss.com)
+![framework7](http://devnot.com/wp-content/uploads/2017/05/logo-new.png)
+
+[Framework7](https://framework7.io/)
 
 ## LICENSE
 
