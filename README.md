@@ -25,6 +25,6 @@ __To-Do List &amp; Task Manager__
 
 ## LICENSE
 
-:clipboard: [   BSD 3-Clause](https://github.com/Todefina/todefina.github.io/blob/master/LICENSE)
+:clipboard:   [ BSD 3-Clause ](https://github.com/Todefina/todefina.github.io/blob/master/LICENSE)
 
 </center>
