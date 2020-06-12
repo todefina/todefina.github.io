@@ -2,6 +2,8 @@
   
 # TO Defina 
 
+__To-Do List &amp; Task Manager__
+
 ![To Defina](https://defina.ru/uploads/2019/08/6.jpg)
 
 <a href="https://defina.ru/app/to_defina" target="_blank">
@@ -10,12 +12,9 @@
 
 <hr/>
 
-To-Do List &amp; Task Manager
-
-
 ## DESIGN & STYLE
 
-![framework7](http://devnot.com/wp-content/uploads/2017/05/logo-new.png)
+<img src="http://devnot.com/wp-content/uploads/2017/05/logo-new.png" align="framework7" height="148" width="148" >
 
 [Framework7](https://framework7.io/)
 
