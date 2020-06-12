@@ -8,13 +8,12 @@
   <img src="https://definaru.github.io/assets/images/button_download.png">
 </a>
 
-
-
+<hr/>
 
 To-Do List &amp; Task Manager
 
 
-## STYLE
+## DESIGN & STYLE
 
 ![framework7](http://devnot.com/wp-content/uploads/2017/05/logo-new.png)
 
