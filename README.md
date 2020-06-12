@@ -14,7 +14,7 @@ __To-Do List &amp; Task Manager__
 
 ## DESIGN & STYLE
 
-<img src="http://devnot.com/wp-content/uploads/2017/05/logo-new.png" align="framework7" height="148" width="148" >
+<img src="http://devnot.com/wp-content/uploads/2017/05/logo-new.png" align="framework7" height="300" width="300" >
 
 [Framework7](https://framework7.io/)
 
@@ -25,6 +25,6 @@ __To-Do List &amp; Task Manager__
 
 ## LICENSE
 
-:clipboard: [BSD 3-Clause](https://github.com/Todefina/todefina.github.io/blob/master/LICENSE)
+:clipboard: [   BSD 3-Clause](https://github.com/Todefina/todefina.github.io/blob/master/LICENSE)
 
 </center>
