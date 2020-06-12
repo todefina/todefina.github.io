@@ -21,7 +21,7 @@ To-Do List &amp; Task Manager
 
 <hr/>
 
- [QR-CODE](https://definaru.github.io/assets/images/54747568.gif)
+![QR-CODE](https://definaru.github.io/assets/images/54747568.gif)
  
 
 ## LICENSE
