@@ -19,6 +19,11 @@ To-Do List &amp; Task Manager
 
 [Framework7](https://framework7.io/)
 
+<hr/>
+
+ [QR-CODE](https://definaru.github.io/assets/images/54747568.gif)
+ 
+
 ## LICENSE
 
 :clipboard: [BSD 3-Clause](https://github.com/Todefina/todefina.github.io/blob/master/LICENSE)
