@@ -4,9 +4,12 @@
 
 ![To Defina](https://defina.ru/uploads/2019/08/6.jpg)
 
-<a href="https://defina.ru/app/to_defina">
+<a href="https://defina.ru/app/to_defina" target="_blank">
   <img src="https://definaru.github.io/assets/images/button_download.png">
 </a>
+
+
+
 
 To-Do List &amp; Task Manager
 
